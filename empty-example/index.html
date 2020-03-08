@@ -1,14 +1,206 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>p5.js example</title>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.js"></script>
-    <script src="p5.sound.js"></script>
-    <script src="firstGame.js"></script>
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style> body {padding: 0; margin: 0;} </style>
+
+  <link rel="stylesheet" href = "menu_style.css"> </link>
+
+  <script src="p5.js"></script>
+  <script src="p5.sound.js"></script>
+  <!-- <script src="menu.js"></script> -->
+
+
+  <script>
+
+  window.addEventListener('scroll',function(e){
+
+    const target = document.querySelector('.explain');
+    var scrolled = window.pageYOffset;
+    var rate = scrolled * -0.2;
+    target.style.transform = 'translate3d('+rate+'px,0px,0px)';
+
+
+    const target2 = document.querySelector('.explain2');
+    var scrolled = window.pageYOffset;
+    var rate1 = scrolled * 0.3;
+    target2.style.transform = 'translate3d('+rate1+'px,0px,0px)';
+
+    const target3= document.querySelector('.explain3');
+    var scrolled = window.pageYOffset;
+    var rate3 = scrolled * -0.2;
+    target3.style.transform = 'translate3d('+rate3+'px,0px,0px)';
+
+    const image1= document.querySelector('.activity1');
+    var scrolled = window.pageYOffset;
+    var rate4 = scrolled * 0.2;
+    image1.style.transform = 'translate3d('+rate4+'px,0px,0px)';
+
+    const image2= document.querySelector('.activity2');
+    var scrolled = window.pageYOffset;
+    var rate5 = scrolled * -0.2;
+    image2.style.transform = 'translate3d('+rate5+'px,0px,0px)';
+
+    const image3= document.querySelector('.activity3');
+    var scrolled = window.pageYOffset;
+    var rate6 = scrolled * 0.2;
+    image3.style.transform = 'translate3d('+rate6+'px,0px,0px)';
+
+
+        const target4= document.querySelector('.bodyText');
+        var scrolled = window.pageYOffset;
+        var rate7 = scrolled * 0.2;
+        target4.style.transform = 'translate3d('+rate7+'px,'+rate7+'px,0px)';
+
+        const target5= document.querySelector('.btn');
+        var scrolled = window.pageYOffset;
+        var rate7 = scrolled * 0.01;
+        target5.style.transform = 'translate3d('+rate7+'px,'+rate7+'px,0px)';
+
+        const target6= document.querySelector('.ad');
+        var scrolled = window.pageYOffset;
+        var rate8 = scrolled * -0.7;
+        target6.style.transform = 'translate3d(0px,'+rate8+'px,0px)';
+
+        const target7= document.querySelector('.secondbig');
+        var scrolled = window.pageYOffset;
+        var rate9 = scrolled * -0.01;
+        target7.style.transform = 'translate3d('+rate9+'px,0px,0px)';
+
+
+
+
+  });
+
+  </script>
+
+
+</head>
+
+
+<body>
+
+  <div class = "logo">
+
+  </div>
+
+  <div class = "banner">
+    <video autoplay muted loop>
+      <source src="bg.mp4" type = "video/mp4">
+      </video>
+
+      <div class = "container">
+
+        <div class = "block1">
+          <h1 class = "bigHeader"><a class="header" ><i>
+            Best Buddy At Your Service
+          </h1></a></i>
+
+        </div>
+
+        <div class = "block2">
+          <ul>
+            <li><a class="list" href ="server1.html"> // Product </li></a>
+            <!-- <li><a class="list" href ="data.html"> // Data </li></a> -->
+
+          </ul>
+        </div>
+      </div>
+
+      <div class = "floatText"> <h1 class = "secondbig"> <i>Meet Buddy</i></h1></div>
+
+      <div class = "container2">
+        <div class="blockdiv1">
+
+        <p class = "bodyText">
+          Buddy is the most intellgent artifical intellgent robot of all time,
+          on thedesign of this product, we are proud to announce that she
+          will not only become your life long  friend and assistant.
+
+
+        </p>
+
+        <button class="btn"><a  href = "server1.html"> For More Details</a></button>
+</div>
+  <div class="blockdiv2">
+        <img class="title_1" src="title_1.gif"></img>
+
+      </div>
+    </div>
+
+
+      <div class = "container3">
+
+
+        <div class ="collum1">
+          <img class="activity1" src = "connect.gif"></img>
+
+          <p class = "explain"><strong><i> A</i>  Best Friend</strong>
+            <br></br>
+            <br>With the most advance tool, Cicada is connect with you though the adapter
+            enbodyed in you. you can share your feelings with your robot, which makes it not only your
+            right-hand man but also a best friend.</br>
+          </p>
+        </div>
+
+
+        <div class = "collum2">
+
+          <img class="activity2" src ="help.gif"></img>
+          <p class = "explain2">
+            <strong><i>A</i> Helpful Assitant</strong>
+            <br></br>
+            <br>Cicada is designed to assist their owner for work, study, and life
+            they can lift and carry heavy items andCicada is designed to assist their owner for work, study, and life
+            they can lift and carry heavy items and
+          </br>
+        </p>
+      </div>
+
+      <div class = "collum3">
+
+        <img class="activity3" src ="family.gif"></img>
+        <p class = "explain3">
+          <strong><i>A</i> Loving Family</strong>
+          <br></br>
+          <br>Cicada is designed to assist their owner for work, study, and life
+          they can lift and carry heavy items and
+        </br>
+      </p>
+    </div>
+
+      <div class="collum4">
+  <p class="ad">Want a robot Yourself?
+    <br>Sign up now!</br>
+  </p>
+      </div>
+  </div>
+
+
+  <section class="signUpSheet">
+
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <!-- <hr> -->
+
+      <button type="submit" class="registerbtn">Register</button>
+      <p>This product is not true, please don't take it seriously. Have a Nice BFA :);
+
+  </section>
+
+
+
+
+
+
+</body>
 </html>

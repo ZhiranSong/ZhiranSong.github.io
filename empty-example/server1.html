@@ -1,0 +1,267 @@
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style> body {padding: 0; margin: 0;} </style>
+
+  <link rel="stylesheet" href = "style.css"> </link>
+
+  <script src="p5.js"></script>
+  <script src="p5.sound.js"></script>
+  <!-- <script src="product.js"></script> -->
+</head>
+
+
+<body>
+
+
+
+  <div class = "header"><i><a href = "index.html"> Home</a></i></div>
+  <div class ="divBlock">
+
+  </div>
+
+
+  <div class = "container">
+    <div class = "block1">
+      <p class = "contentHeader"><i>
+        Product overview
+      </p></i>
+      <p class = "bodytext">
+        Buddy is the newest version of our artifical intellgency robot, on the
+        design of this product, we are proud to announce that she will not only
+        become your closeed friend and assistant during life time.
+
+      </p>
+    </div>
+  </div>
+
+<div class="test">
+  <h1 class="container1Head">
+    Simple set up for your robot.
+  </h1>
+
+  <img class="information" src = "backgroundDECRO.png">
+</img>
+</div>
+
+  <img class="numbers" src = "number.png">
+</img>
+<img class="numbers" src = "number2.png">
+</img>
+<img class="numbers" src = "number3.png">
+</img>
+
+  <div class="container2">
+
+    <div class="column1">
+
+
+      <img class="instruction1" src = "funtion1.png">
+
+    </img>
+      <p class ="title">
+        Construct the Robot
+      </p>
+      <p class="explain">  It's important fot the user to construct buddy themselves
+       The much attention you put into the buddy, the better buddy bonded with you.
+      </p>
+    </div>
+
+    <div class="column1">
+          <img class="instruction1" src = "function3.png">
+      <p class ="title">
+        Embed the connect onto you body.
+      </p>
+      <p class="explain">
+        In order for you  getting connected with buddy, the connecter must be place
+        in side the heart of yourself. This connection allows buddy to obtian your
+        biological data at any time.
+    </div>
+
+    <div class="column1">
+          <img class="instruction1" src = "function4.png">
+      <p class ="title">
+        Getting connected with Buddy
+      </p>
+      <p class="explain">
+      Place the connecter on your buddy, and getting connected with it. The connect
+      allows you to communicate with your buddy without making actual conversation.
+      It also allows you to make order when buddy is not around you.
+      </p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class = "container3">
+
+    <div class="test">
+    <h1 class="container2Head">
+      Basic Information about the robot.
+    </h1>
+    <img class="information" src = "backgroundDECRO.png">
+</img>
+    </div>
+
+
+
+    <div class = "block2">
+
+      <img id="image1" class="image1" src="01.jpg"></img>
+      <p class = "contentHeader1"><i>
+        // Demention
+      </p></i>
+
+      <p class = "bodytext1">
+        Buddy is 5 feet 4 in height and 90 IBS in weigh.
+
+      </p>
+    </div>
+<hr>
+    <img class="information" src = "backgroundDECRO.png">
+  </img>
+
+    <div class = "block2">
+
+      <img id="image1" class="image1" src="02.jpg"></img>
+      <p class = "contentHeader1"><i>
+        // Material
+      </p></i>
+
+      <p class = "bodytext2">
+        The body of the robot is constucted though plasitic and rubber
+
+      </p>
+    </div>
+<hr>
+    <img class="information" src = "backgroundDECRO.png">
+  </img>
+
+    <div class = "block2">
+
+      <img id="image1" class="image1" src="03.jpg"></img>
+      <p class = "contentHeader1"><i>
+        // Camera and sensor
+      </p></i>
+
+      <p class = "bodytext2">
+        4k Camera and motion traker is located in the eye area of the robbot.
+
+
+      </p>
+</div>
+
+      <hr>
+          <img class="information" src = "backgroundDECRO.png">
+        </img>
+
+          <div class = "block2">
+
+            <img id="image1" class="image1" src="05.jpg"></img>
+            <p class = "contentHeader1"><i>
+              // Camera and sensor
+            </p></i>
+
+            <p class = "bodytext3">
+              4k Camera is located in the eye area of the robbot.
+
+            </p>
+    </div>
+
+<hr>
+  <div class="collum4">
+<p class="ad" ><a  href="data.html">Want a robot Yourself?
+<br>Sign up now!</br>
+</p>
+  </div>
+
+
+      <script>
+      //paralax
+            window.addEventListener('scroll',function(e){
+
+              // const target = document.querySelector('.image1');
+              // var scrolled = window.pageYOffset;
+              // var rate = scrolled * 0.06;
+              // target.style.transform = 'translate3d('+rate*2+'px,'+rate*-2+'px,0px)';
+
+              const target = document.querySelectorAll('.image1');
+              var scrolled = window.pageYOffset;
+              var rate = scrolled * 0.1;
+              var i = 0,length2 =target.length;
+              for(i;i<length2;i ++){
+
+              target[i].style.transform = 'translate3d('+rate*1.2+'px,'+rate*-2+'px,0px)';
+
+                }
+
+                const target2 = document.querySelectorAll('.contentHeader1');
+                var scrolled = window.pageYOffset;
+                var rate2 = scrolled * 0.1;
+                var i = 0,length3 =target2.length;
+                for(i;i<length3;i ++){
+
+                target2[i].style.transform = 'translate3d('+rate2*1.4+'px,0px,0px)';
+
+                  }
+
+
+
+              const target3= document.querySelectorAll('.bodytext1');
+              var rate3 = scrolled *-0.3;
+              var i = 0, length4 = target3.length;
+              for (i;i <length4;i ++){
+              target3[i].style.transform ='translate3d('+rate3+'px,0px,0px)';
+            }
+
+
+                          const target4= document.querySelectorAll('.bodytext2');
+                          var rate4 = scrolled *0.1;
+                          var i = 0, length5 = target4.length;
+                          for (i;i <length5;i ++){
+                          target4[i].style.transform ='translate3d('+rate4*1.5+'px,'+rate4+'px,0px)';
+                        }
+
+
+                        const target5= document.querySelectorAll('.bodytext3');
+                        var rate5 = scrolled *0.5;
+                        var i = 0, length6 = target5.length;
+                        for (i;i <length6;i ++){
+                        target5[i].style.transform ='translate3d('+rate5*1.5+'px,'+rate5+'px,0px)';
+                      }
+
+
+
+
+              const target7= document.querySelectorAll('.column1');
+              var index = 0, length = target7.length;
+              for (index;index < length;index++){
+                var rate7 = scrolled * -0.2;
+                target7[index].style.transform ='translate3d(0px,'+rate7+'px,0px)';
+              }
+
+              const target8= document.querySelectorAll('.information');
+              var index = 0, length = target8.length;
+              for (index;index < length;index++){
+                var rate8 = scrolled * 9;
+                target8[index].style.transform ="rotate('+rate8+'deg)";
+              }
+
+
+
+
+            });
+      </script>
+
+
+
+    </div>
+  </div>
+</body>
+</html>
