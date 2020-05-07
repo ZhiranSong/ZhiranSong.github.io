@@ -106,6 +106,7 @@ for (var i = 0; i <temportureArray.length;i ++){
 
     for(var i5 = 0;i5 < entertainmentArray.length;i5++){
       entertainmentArray[i5].show();
+      entertainmentArray[i5].hover();
     }
       for (var i6 = 0;i6 < productivityArray.length;i6++){
         productivityArray[i6].show();
@@ -291,7 +292,7 @@ class dataCircle{
               fill("white");
               noStroke();
             //  text(this.t2,this.t*10+10,this.r*400);
-              text('TotalUsage '+ this.t2,mouseX,mouseY);
+              text('Total Usage '+ this.t2,mouseX,mouseY);
 
 
             }
@@ -324,7 +325,7 @@ hover(){
     fill("#ed1c24");
     noStroke();
   //  text(this.t2,this.t*10+10,this.r*400);
-    text('socialMedia '+ this.s,mouseX,mouseY+30);
+    text('Social Media '+ this.s,mouseX,mouseY+30);
 
 }
 }
@@ -350,6 +351,17 @@ class entertainmentCircle{
     stroke("#0071bc");
     strokeWeight(1);
     ellipse(this.t*10+60,this.r*200+110,this.e*20,this.e*20);
+  }
+  hover(){
+    if(dist(mouseX,mouseY,this.t*10+60,this.r*200+110)<this.e*20){
+      noStroke();
+      fill("#0071bc");
+      text('Entertainment '+this.e,mouseX,mouseY+90);
+
+
+    }
+
+
   }
 
 }
