@@ -44,7 +44,7 @@ div.header a{
 
 div.container{
   margin-top:200px;
-  margin-left:500px;
+  margin-left:100px;
   margin-right:100px;
   margin-bottom:400px;
   display:flex;
@@ -75,7 +75,7 @@ p.contentHeader{
 
   font-family:arial black;
   color:#5e684f;
-  font-size:50px;
+  font-size:30px;
   margin-top:-100px;
   padding-top:-200px;
   padding-left:10px;
@@ -87,10 +87,10 @@ p.contentHeader{
 p.bodytext{
   font-family:arial;
   color:#5e684f;
-  font-size:30px;
+  font-size:15px;
   padding-left:0px;
   padding-top:20px;
-  padding-right:1400px;
+  padding-right:800px;
   line-height:1.6;
 
 }
@@ -111,14 +111,14 @@ display:flex;
 
 
 div.column1{
-margin-top:200px;
-margin-left:150px;
-margin-right:150px;
-margin-bottom:-100px;
-padding-top:40px;
-padding-bottom:120px;
-padding-left:100px;
-padding-right:120px;
+margin-top:-30px;
+margin-left:50px;
+margin-right:50px;
+margin-bottom:0px;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
 /* border:2px solid #5e684f; */
 background-color:white;
 box-shadow: 10px 10px 300px #9b9b9b;
@@ -132,52 +132,38 @@ img.numbers{
   width:5%;
   height:auto;
   margin-left:0px;
-  padding-left:400px;
-  padding-right:200px;
+  padding-left:300px;
   padding-top:100px;
 }
 img.instruction1{
 
   width:50%;
-
-  padding-bottom:0px;
-  margin-top:30px;
-  padding-left:30px;
+  padding-left:60px;
   height:auto;
 }
-
 .title{
 
   font-family:arial;
-
-  padding-left:10px;
-  padding-right:-100px;
-  padding-top:20px;
-  font-size:20px;
 
 }
 
 p.explain{
   font-family:arial;
   color:#5e684f;
-  font-size:20px;
+  font-size:13px;
   line-height:1.6;
-  margin-top:40px;
-  margin-bottom:-100px;
-
 
 }
 
 
 .container1Head{
   font-family:arial;
-  font-size:50px;
+  font-size:30px;
   color:#5e684f;
   margin-top:100px;
-  margin-left:400px;
-  margin-right:500px;
+  margin-left:200px;
   padding-top:10px;
-  padding-left:100px;
+  padding-left:60px;
   border:2px solid #5e684f;
   height:130px;
 
@@ -187,15 +173,13 @@ p.explain{
 
 .container2Head{
   font-family:arial;
-  font-size:50px;
+  font-size:30px;
   color:#5e684f;
   margin-left:300px;
-  padding-right:800px;
-  margin-top:-300px;
   padding-top:0px;
   padding-left:80px;
-  border:3px solid #5e684f;
-  height:240px;
+  border:2px solid #5e684f;
+  height:130px;
 
 }
 
@@ -245,15 +229,7 @@ div.block3{
 
 .contentHeader1{
   font-family:arial;
-  font-size:50px;
-  padding-right:-400px;
-  padding-left:-100px;
-  color:#5e684f;
-
-}
-.contentHeader2{
-  font-family:arial;
-  font-size:50px;
+  font-size:40px;
   padding-right:-400px;
   padding-left:-100px;
   color:#5e684f;
@@ -261,25 +237,23 @@ div.block3{
 }
 
 img.image1{
-padding-left:100px;
-padding-top:30px;
+padding-left:0px;
+padding-top:0px;
 width:40%;
-height:90%;
+height:auto;
 }
 
 
 
 img.image2{
-padding-left:-20px;
-width:50%;
-height:90%;
+padding-left:-100px;
 }
 
 
 .bodytext1{
 
   font-family:arial;
-  font-size:30px;
+  font-size:20px;
   margin-bottom:10px;
   margin-top:200px;
   padding-left:50px;
@@ -287,32 +261,15 @@ height:90%;
   padding-top:40px;
   padding-bottom:10px;
   color:#5e684f;
-  border:3px solid #5e684f;
+  border:2px solid #5e684f;
   height:100px;
 
 }
 
-P.bodytext2{
+.bodytext2{
 
   font-family:arial;
-  font-size:30px;
-  margin-bottom:40px;
-  margin-top:-200px;
-  margin-left:-1000px;
-  padding-left:50px;
-  padding-right:50px;
-  padding-top:40px;
-  padding-bottom:10px;
-  color:#5e684f;
-  border:3px solid #5e684f;
-  height:100px;
-
-
-}
-p.bodytext3{
-
-  font-family:arial;
-  font-size:30px;
+  font-size:20px;
   margin-bottom:10px;
   margin-top:-300px;
   margin-left:-1000px;
@@ -321,7 +278,24 @@ p.bodytext3{
   padding-top:40px;
   padding-bottom:10px;
   color:#5e684f;
-  border:3px solid #5e684f;
+  border:2px solid #5e684f;
+  height:100px;
+
+
+}
+.bodytext3{
+
+  font-family:arial;
+  font-size:20px;
+  margin-bottom:10px;
+  margin-top:-300px;
+  margin-left:-1000px;
+  padding-left:20px;
+  padding-right:50px;
+  padding-top:40px;
+  padding-bottom:10px;
+  color:#5e684f;
+  border:2px solid #5e684f;
   height:100px;
 
 
@@ -345,7 +319,7 @@ p.bodytext3{
 
 
 div.test{
-margin-top:400px;
+
   display:flex;
 }
 
@@ -354,7 +328,7 @@ img.information{
   margin-top:00px;
   margin-left:400px;
   width:30%;
-  height:50%;
+  height:auto;
 }
 
 
